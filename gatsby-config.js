@@ -4,7 +4,6 @@ module.exports = {
     description: `High-voltage electronic rock from Adelaide's underground.`,
     siteUrl: `https://filip.github.io/triggerflux`,
   },
-  pathPrefix: `/triggerflux`,
   trailingSlash: `always`,
   plugins: [
     {
