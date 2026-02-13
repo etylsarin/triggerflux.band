@@ -1,0 +1,44 @@
+import { withPrefix } from "gatsby"
+import Layout from "../components/layout"
+
+<Layout>
+
+<section className="section section-top">
+	<p className="eyebrow">Bio</p>
+	<p className="lead">
+		Triggerflux is a high-voltage electronic rock unit built on raw energy,
+		industrial attitude, and ferocious live presence. Formed on the fringes of
+		Adelaide&apos;s underground rave scene, the band fuses breakbeat chaos, razor-edged
+		guitars, live drums, and destructive club sonics into a singular explosive identity.
+	</p>
+	<p>
+		Fronted by Mara Keaton, Triggerflux channels the sweat of warehouse raves and
+		the defiance of those who refuse to be silenced.
+	</p>
+	<img src={withPrefix("/images/triggerflux-band-01.jpg")} alt="Triggerflux band portrait" />
+</section>
+
+<section className="section" id="break-the-silence">
+	<p className="eyebrow">Debut Album</p>
+	<h2>{`Break the Silence (2025)`}</h2>
+	<p>
+		Twelve tracks of industrial breakbeat fury. From the creeping tension of
+		"Voltage Drop" to the melancholic orbit of "Satellite Heart," Break the Silence
+		maps the territory between rave euphoria and post-industrial decay.
+	</p>
+	<p>
+		The album opens with dark tension before exploding into anarchic defiance.
+		It descends through nocturnal cityscapes — ghost frequencies, mechanical grinds,
+		magnetic pulls. The heart of the album beats in its contrasts: sassy electro-clash
+		swagger sits alongside bitter corporate disillusionment; desperate dancefloor highs
+		fade into hollow comedowns.
+	</p>
+	<p>
+		Track Listing: Voltage Drop • Riot Soul • Shockwave • Dead Signal • Iron Pulse •
+		Magnet Run • Velvet Static • Glass Highway • Lipstick Traces • Hollow Crown •
+		Lifted • Satellite Heart
+	</p>
+    <img src={withPrefix("/images/cover.jpg")} alt="Triggerflux album cover" />
+</section>
+
+</Layout>

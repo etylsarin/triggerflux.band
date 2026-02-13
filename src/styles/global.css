@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #0b0b0d;
+  color: #ffffff;
+  line-height: 1.65;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.site-shell {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 1.6rem 2rem;
+}
+
+.site-header {
+  padding: 2.1rem 0 1.2rem;
+}
+
+.site-brand {
+  margin: 0 0 0.7rem;
+  font-size: 0.88rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #9f9fa7;
+}
+
+.site-tagline {
+  margin: 0.5rem 0 0;
+  color: #b7b7be;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 0;
+  display: block;
+}
+
+.site-main {
+  display: grid;
+  gap: 2rem;
+  padding-top: 1rem;
+}
+
+.eyebrow {
+  margin: 0 0 1rem;
+  color: #a0a0a8;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.74rem;
+  font-weight: 600;
+}
+
+h1,
+h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 4.3vw, 3.8rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  text-transform: none;
+}
+
+h3 {
+  margin: 0 0 0.8rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.01em;
+}
+
+p,
+li {
+  color: #bfc0c8;
+  font-size: 1.06rem;
+}
+
+ul,
+ol {
+  padding-left: 1.1rem;
+}
+
+.section {
+  padding-top: 1rem;
+}
+
+.section-top {
+  padding-top: 0;
+}
+
+.lead {
+  font-size: 1.22rem;
+  color: #d2d3da;
+}
+
+.site-footer {
+  margin-top: 2.2rem;
+  padding-top: 0.5rem;
+  color: #9a9aa1;
+  font-size: 0.8rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  .site-shell {
+    padding: 0 1.2rem 1.4rem;
+  }
+}
