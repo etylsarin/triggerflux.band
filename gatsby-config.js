@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Triggerflux`,
-    description: `High-voltage electronic rock from Adelaide's underground.`,
+    description: `Electro-clash and dirty disco from Adelaide's underground.`,
     siteUrl: `https://filip.github.io/triggerflux`,
   },
   trailingSlash: `always`,
